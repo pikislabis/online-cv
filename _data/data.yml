@@ -3,198 +3,223 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: José Antonio Parra
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: josparbar@gmail.com
+    phone: +34 637 427 478
+    # website: blog.webjeda.com #do not add http://
+    linkedin: japarra
+    github: pikislabis
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@pikislabis'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Movies
         link:
 
-      - item: Snowboarding
+      - item: Series
         link:
 
-      - item: Cooking
+      - item: Basketball
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am a Full-Stack developer with 10 years of experience in the development
+      of advanced web applications, mainly focused on the visualization of data
+      from analytical platforms.
 
-      Second paragraph if required.
+      I have experience in the design and development of applications based on
+      responsive dashboards, making use of libraries such as React.js and
+      charting libraries based on D3.js. Likewise, also in the design of
+      solutions for the authentication and authorization of users to access
+      data in multitenancy environments. All these services have been
+      developed as microservices, providing elasticity and fault tolerance.
+
+      During my work experience I have used agile development methodologies,
+      such as SCRUM, helping in the management of the Product Backlog.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: Computer Engineer
+      university: University of Seville
+      time: 2011
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: ITIL Foundation v2
+      university: APM Group
+      time: 2009
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Lead Full Stack Engineer & Co-founder
+      time: 2017 - 2019
+      company: Wizzie, Seville
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Design, development, and maintenance of product's web interfaces,
+        running as microservices on top of Kubernetes providing elasticity and
+        fault-tolerance.
 
-          - Bullet point
-          - Bullet point
+        Those web interfaces are used to display monitoring and metrics analytics
+        in fully-managed dashboards, with a complete set of different types of
+        widgets. Also, at Wizzie we have developed a tool for manage the users
+        and the privileges, as well as a complete interface that controls all
+        the processing of the data stack.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        As Team Lead, I'm focused on overseeing all backend and frontend work,
+        coordination with other teams, communication with stakeholders and
+        helping Product Owner the creation and prioritization of the Product
+        Backlog, all of these using agile methodologies.
+
+          - Ruby on Rails 5
+          - React.js
+          - D3.js libraries (Recharts, Echarts, Nivo)
+          - Google Maps API
+          - PostgreSQL
+          - Apache Druid
+          - Sidekiq
+          - Puma
+          - Rspec
+          - CircleCI
+          - Puma
+          - Docker
+
+    - role: IT Consultant
+      time: 2016 - Present
+      company: Kimidori, Seville
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Help in the maintenance of the e-commerce platform based on Prestashop.
 
-          - Bullet point
-          - Bullet point
+          - Prestashop
+          - MySQL
+          - AWS EC2
+          - AWS S3
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Lead Full Stack Engineer
+      time: 2011 - 2017
+      company: redBorder, Seville
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Coordination of the development of web interfaces for redBorder products,
+        real-time Network Traffic Analysis (NTA) and Active Cybersecurity Platform
+        based on Big Data technology.
 
-          - Bullet point
-          - Bullet point
+          - Ruby on Rails 4
+          - Bootstrap
+          - D3.js
+          - Google Maps API
+          - Delayed Job
+          - PostgreSQL
+          - Apache Druid
+          - AWS S3
+          - Minitest
+          - Unicorn
+          - Nginx
+
+    - role: ERP Developer
+      time: 2008 - 2011
+      company: Agaex Informática S.L, Seville
+      details: |
+        Requirements analysis, design, and development for ERP software based on Oracle Forms and Reports.
+
+          - Spyro ERP
+          - PL/SQL
+          - Oracle Forms
+          - Oracle Reports
+          - Oracle Database 11g
+
+    - role: Software Developer
+      time: 2008
+      company: Agaex Informática S.L, Seville
+      details: |
+        Development of a platform prototype for electronic processing in public institutions.
+
+          - Java
+          - JSP
+          - JSF
+          - Hibernate
+          - @firma
+          - Trewa
+
+    - role: Intern
+      time: 2008
+      company: Agaex Informática S.L, Seville
+      details: |
+        Development an internal application for the incidents management and control of hours on the outsourcing projects.
+
+          - Ruby on Rails 3
+          - Bootstrap
+          - jQTouch
+          - MySQL
+          - Passenger
+          - Apache
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Weddinplan
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: |
+          I created a web application for planning and managing all the related
+          stuff of a wedding, like the wedding's events, RSVP, music, photos...
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          Built on Ruby on Rails, WeddinPlan was developed thinking in
+          all kind of devices (smartphones, tablets, PCs, ...), also the major
+          browsers. For this, Bootstrap is the framework selected for the frontend.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          Also, WeddinPlan had a big integration with Facebook, both for login
+          process and uploading photos.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Los datos y la user experience
+        authors: Digital Biz Magazine
+        conference: https://www.digitalbizmagazine.com/los-datos-y-la-user-experience/
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Web Technologies
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Data Visualization
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Product Design
+        level: 80%
+
+      - name: Team Management
+        level: 75%
+
+      - name: Continuous Integration
+        level: 75%
+
+      - name: Microservices
+        level: 70%
+
+      - name: Agile Methodologies
+        level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Made with <i class="fas fa-heart"></i> by Jose Antonio Parra
